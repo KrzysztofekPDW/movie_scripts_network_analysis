@@ -1,0 +1,166 @@
+<section class="slide-concept">
+<style>
+  .metrics-overview-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .metrics-overview-layout h2 {
+    font-family: var(--display);
+    font-size: 2.6rem;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 0.15em;
+    line-height: 1.05;
+  }
+  .metrics-overview-layout h3 {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 1.1rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.6rem;
+  }
+  .metrics-overview-layout .mo-subtitle {
+    font-family: var(--body);
+    font-size: 0.88rem;
+    color: #c8c8c8;
+    max-width: 720px;
+    line-height: 1.55;
+    margin-bottom: 1.2rem;
+  }
+  .metrics-overview-layout .mo-subtitle em {
+    color: var(--gold);
+    font-style: normal;
+    font-weight: 600;
+  }
+  .mo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+    max-width: 860px;
+  }
+  .mo-card {
+    background: linear-gradient(180deg, #171717 0%, #121212 100%);
+    border: 1px solid var(--border);
+    padding: 0.8em 1em;
+    display: grid;
+    grid-template-columns: 3.2rem 1fr;
+    gap: 0.7rem;
+    align-items: start;
+  }
+  .mo-card-icon {
+    font-family: var(--display);
+    font-size: 2rem;
+    line-height: 1;
+    color: var(--red);
+    text-align: center;
+    padding-top: 0.1em;
+  }
+  .mo-card-content {}
+  .mo-card-name {
+    font-family: var(--display);
+    font-size: 1.05rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.2rem;
+    line-height: 1.1;
+  }
+  .mo-card-question {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--red);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.3rem;
+  }
+  .mo-card-desc {
+    font-family: var(--body);
+    font-size: 0.78rem;
+    line-height: 1.48;
+    color: #c0c0c0;
+    margin: 0;
+  }
+  .mo-card-desc strong { color: var(--gold); font-weight: 600; }
+  .mo-card-analogy {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--muted);
+    margin-top: 0.35rem;
+    letter-spacing: 0.06em;
+    border-top: 1px solid var(--border);
+    padding-top: 0.3rem;
+  }
+  .mo-card-analogy span { color: var(--white); }
+  .mo-footer {
+    margin-top: 1rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    max-width: 620px;
+  }
+  .mo-footer em { color: var(--gold); font-style: normal; }
+</style>
+
+<div class="metrics-overview-layout">
+  <h3>Narzędzia analizy</h3>
+  <h2>Miary centralności</h2>
+  <div class="mo-subtitle">
+    Centralność odpowiada na pytanie: <em>kto jest ważny w sieci?</em>
+    Każda miara definiuje „ważność" inaczej — razem tworzą wielowymiarowy portret struktury władzy w narracji.
+  </div>
+
+  <div class="mo-grid">
+    <div class="mo-card">
+      <div class="mo-card-icon">D</div>
+      <div class="mo-card-content">
+        <div class="mo-card-name">Degree Centrality</div>
+        <div class="mo-card-question">„Ile ma kontaktów?"</div>
+        <div class="mo-card-desc">Suma wag krawędzi incydentnych do węzła. Mierzy <strong>bezpośrednią aktywność</strong> — z iloma postaciami i jak często dana postać współwystępuje.</div>
+        <div class="mo-card-analogy">Analogia: <span>gwiazda sceny</span></div>
+      </div>
+    </div>
+
+    <div class="mo-card">
+      <div class="mo-card-icon">B</div>
+      <div class="mo-card-content">
+        <div class="mo-card-name">Betweenness Centrality</div>
+        <div class="mo-card-question">„Przez kogo przechodzą ścieżki?"</div>
+        <div class="mo-card-desc">Frakcja najkrótszych ścieżek w sieci przechodzących przez węzeł. Mierzy <strong>kontrolę przepływu informacji</strong> — kto jest pośrednikiem między społecznościami.</div>
+        <div class="mo-card-analogy">Analogia: <span>broker informacji</span></div>
+      </div>
+    </div>
+
+    <div class="mo-card">
+      <div class="mo-card-icon">C</div>
+      <div class="mo-card-content">
+        <div class="mo-card-name">Closeness Centrality</div>
+        <div class="mo-card-question">„Jak szybko dociera do wszystkich?"</div>
+        <div class="mo-card-desc">Odwrotność średniej odległości do wszystkich pozostałych węzłów. Mierzy <strong>efektywność dostępu</strong> — jak blisko centrum narracji jest dana postać.</div>
+        <div class="mo-card-analogy">Analogia: <span>centrum dowodzenia</span></div>
+      </div>
+    </div>
+
+    <div class="mo-card">
+      <div class="mo-card-icon">P</div>
+      <div class="mo-card-content">
+        <div class="mo-card-name">PageRank</div>
+        <div class="mo-card-question">„Kogo znają ważne osoby?"</div>
+        <div class="mo-card-desc">Iteracyjny algorytm prestiżu: węzeł jest ważny, jeśli łączą się z nim <strong>inne ważne węzły</strong>. Ujawnia ukryty prestiż i wpływ pośredni.</div>
+        <div class="mo-card-analogy">Analogia: <span>szara eminencja</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mo-footer">
+    → Każda miara odsłania <em>inny wymiar władzy</em> w narracji. W kolejnych slajdach: szczegółowe wzory i wyniki dla Fight Club.
+  </div>
+</div>
+</section>

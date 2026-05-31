@@ -1,0 +1,122 @@
+<section class="slide-concept slide-density-concept">
+<style>
+  .density-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .density-layout h2 {
+    font-family: var(--display);
+    font-size: 2.6rem;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 0.15em;
+    line-height: 1.05;
+  }
+  .density-layout h3 {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.6rem;
+  }
+</style>
+
+<div class="density-layout">
+  <h3>Metryka globalna sieci</h3>
+  <h2>Gęstość sieci</h2>
+
+  <!-- Formula hero -->
+  <div class="density-formula-hero">
+    <div class="density-formula-main">
+      <span class="density-formula-d">D</span>
+      <span class="density-formula-eq">=</span>
+      <span class="density-frac">
+        <span class="density-frac-top">2 · |E|</span>
+        <span class="density-frac-bar"></span>
+        <span class="density-frac-bottom">|V| · (|V| − 1)</span>
+      </span>
+    </div>
+    <div class="density-formula-legend">
+      <span><strong>D</strong> — gęstość<br>∈ [0, 1]</span>
+      <span><strong>|E|</strong> — liczba krawędzi<br>(istniejących relacji)</span>
+      <span><strong>|V|</strong> — liczba wierzchołków<br>(postaci w sieci)</span>
+    </div>
+  </div>
+
+  <!-- Visual comparison -->
+  <div class="density-compare">
+    <div class="density-box density-box-dense">
+      <div class="d-label">Sieć gęsta</div>
+      <svg viewBox="0 0 180 100" xmlns="http://www.w3.org/2000/svg">
+        <line x1="40" y1="25" x2="140" y2="25" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+        <line x1="40" y1="25" x2="90" y2="80" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+        <line x1="40" y1="25" x2="140" y2="80" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+        <line x1="140" y1="25" x2="90" y2="80" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+        <line x1="140" y1="25" x2="140" y2="80" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+        <line x1="90" y1="80" x2="140" y2="80" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+        <circle cx="40" cy="25" r="7" fill="#7d6a2e" stroke="#c9a84c" stroke-width="1.2"/>
+        <circle cx="140" cy="25" r="7" fill="#7d6a2e" stroke="#c9a84c" stroke-width="1.2"/>
+        <circle cx="90" cy="80" r="7" fill="#7d6a2e" stroke="#c9a84c" stroke-width="1.2"/>
+        <circle cx="140" cy="80" r="7" fill="#7d6a2e" stroke="#c9a84c" stroke-width="1.2"/>
+      </svg>
+      <span class="d-val">D = 1.0</span>
+      <div class="d-note">Każdy zna każdego — pełna spójność</div>
+    </div>
+
+    <div class="density-box density-box-sparse">
+      <div class="d-label">Sieć rzadka</div>
+      <svg viewBox="0 0 180 100" xmlns="http://www.w3.org/2000/svg">
+        <line x1="30" y1="50" x2="80" y2="30" stroke="#7b2018" stroke-width="1.5" opacity="0.5"/>
+        <line x1="80" y1="30" x2="130" y2="50" stroke="#7b2018" stroke-width="1.5" opacity="0.5"/>
+        <circle cx="30" cy="50" r="7" fill="#5a1510" stroke="#c0392b" stroke-width="1.2"/>
+        <circle cx="80" cy="30" r="7" fill="#5a1510" stroke="#c0392b" stroke-width="1.2"/>
+        <circle cx="130" cy="50" r="7" fill="#5a1510" stroke="#c0392b" stroke-width="1.2"/>
+        <circle cx="55" cy="85" r="7" fill="#5a1510" stroke="#c0392b" stroke-width="1.2"/>
+        <circle cx="150" cy="85" r="7" fill="#5a1510" stroke="#c0392b" stroke-width="1.2"/>
+      </svg>
+      <span class="d-val" style="color:var(--red);">D = 0.2</span>
+      <div class="d-note">Izolowane wyspy — fragmentaryczna narracja</div>
+    </div>
+
+    <div class="density-box" style="border-color: rgba(192, 57, 43, 0.65); flex: 1.2;">
+      <div class="d-label">Fight Club</div>
+      <svg viewBox="0 0 180 100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Central hub (Jack) with few connections -->
+        <line x1="90" y1="45" x2="40" y2="25" stroke="#c0392b" stroke-width="3" opacity="0.7"/>
+        <line x1="90" y1="45" x2="145" y2="30" stroke="#c0392b" stroke-width="2" opacity="0.5"/>
+        <line x1="90" y1="45" x2="60" y2="82" stroke="#c0392b" stroke-width="1.5" opacity="0.4"/>
+        <line x1="40" y1="25" x2="145" y2="30" stroke="#c0392b" stroke-width="1" opacity="0.3"/>
+        <!-- Peripheral isolates -->
+        <circle cx="155" cy="80" r="5" fill="#3a1510" stroke="#c0392b" stroke-width="0.8"/>
+        <circle cx="25" cy="75" r="5" fill="#3a1510" stroke="#c0392b" stroke-width="0.8"/>
+        <!-- Main nodes -->
+        <circle cx="90" cy="45" r="9" fill="#942a20" stroke="#c0392b" stroke-width="1.5"/>
+        <circle cx="40" cy="25" r="7" fill="#7b2018" stroke="#c0392b" stroke-width="1.2"/>
+        <circle cx="145" cy="30" r="6" fill="#5a1510" stroke="#c0392b" stroke-width="1"/>
+        <circle cx="60" cy="82" r="5" fill="#3a1510" stroke="#c0392b" stroke-width="0.8"/>
+      </svg>
+      <span class="d-val" style="color:var(--red); font-size: 1.1rem;">D = 0.086</span>
+      <div class="d-note">Ekstremalnie rzadka — świat krąży wokół jednego centrum</div>
+    </div>
+  </div>
+
+  <div class="density-takeaway-grid">
+    <div class="density-takeaway">
+      <strong>Niska gęstość</strong> oznacza, że większość postaci nie wchodzi ze sobą w interakcje bezpośrednio
+      — sieć utrzymuje się dzięki kilku kluczowym pośrednikom.
+    </div>
+    <div class="density-takeaway">
+      <strong>Fight Club: D = 0.086</strong> — zaledwie 8.6% możliwych połączeń istnieje.
+      Struktura „gwiazdy ego" — Jack jest centrum, bez którego sieć się rozpada.
+    </div>
+  </div>
+</div>
+</section>

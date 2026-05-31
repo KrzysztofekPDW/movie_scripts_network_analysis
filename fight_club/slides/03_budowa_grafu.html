@@ -1,0 +1,82 @@
+<section class="slide-data slide-sna-basics">
+<div class="cna-intro-layout">
+  <h3>Od scenariusza do sieci</h3>
+  <h2>Budowa grafu</h2>
+
+  <div class="sna-intro-grid">
+    <!-- Left: mini graph SVG -->
+    <div class="sna-card">
+      <div class="sna-card-title">Schemat sieci postaci</div>
+      <svg class="sna-mini-graph" viewBox="0 0 340 210" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <marker id="sna-arrow-tip" viewBox="0 0 10 10" refX="10" refY="5"
+                  markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#8c8c8c"/>
+          </marker>
+        </defs>
+
+        <!-- Edges -->
+        <line class="edge-line" x1="100" y1="70" x2="240" y2="70" stroke-width="5"/>
+        <line class="edge-line edge-alt" x1="100" y1="70" x2="170" y2="165"/>
+        <line class="edge-line edge-alt" x1="240" y1="70" x2="170" y2="165"/>
+
+        <!-- Nodes -->
+        <circle class="node-dot node-main" cx="100" cy="70" r="16"/>
+        <circle class="node-dot node-main" cx="240" cy="70" r="14"/>
+        <circle class="node-dot" cx="170" cy="165" r="11"/>
+
+        <!-- Labels -->
+        <text class="node-label" x="100" y="75" text-anchor="middle">JACK</text>
+        <text class="node-label" x="240" y="75" text-anchor="middle">TYLER</text>
+        <text class="node-label" x="170" y="170" text-anchor="middle">MARLA</text>
+
+        <!-- Guide annotations -->
+        <line class="guide-line" x1="48" y1="30" x2="82" y2="55"/>
+        <text class="guide-label" x="18" y="26">WĘZEŁ</text>
+        <text class="guide-desc" x="10" y="40">= postać</text>
+
+        <line class="guide-line" x1="192" y1="48" x2="172" y2="62"/>
+        <text class="guide-label" x="180" y="38">WAGA = 40</text>
+        <text class="guide-desc" x="180" y="50">wspólne sceny</text>
+
+        <line class="guide-line" x1="300" y1="130" x2="220" y2="128"/>
+        <text class="guide-label" x="268" y="150">KRAWĘDŹ</text>
+        <text class="guide-desc" x="262" y="164">= współwystąpienie</text>
+      </svg>
+    </div>
+
+    <!-- Right: definitions -->
+    <div class="sna-weight-card">
+      <div class="sna-card-title" style="font-family:var(--mono);font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);margin-bottom:0.55rem;">Elementy grafu</div>
+
+      <div class="def-box gold" style="margin-bottom:0.7rem;">
+        <strong style="color:var(--gold)">Węzeł (node)</strong> = postać, która wypowiada kwestię<br>
+        <strong style="color:var(--gold)">Krawędź (edge)</strong> = dwie postacie w tej samej scenie<br>
+        <strong style="color:var(--gold)">Waga (weight)</strong> = ile razy się spotkały
+      </div>
+
+      <div class="weight-example">
+        <div class="w-head"><strong style="color:var(--red)">Jack</strong> ↔ <strong style="color:var(--red)">Tyler</strong></div>
+        <div class="w-scenes">40 wspólnych scen</div>
+        <div class="w-score">weight = 40</div>
+      </div>
+      <div class="weight-example">
+        <div class="w-head"><strong style="color:var(--red)">Jack</strong> ↔ <strong style="color:var(--red)">Marla</strong></div>
+        <div class="w-scenes">19 wspólnych scen</div>
+        <div class="w-score">weight = 19</div>
+      </div>
+      <div class="weight-example">
+        <div class="w-head"><strong style="color:var(--red)">Tyler</strong> ↔ <strong style="color:var(--red)">Marla</strong></div>
+        <div class="w-scenes">8 wspólnych scen</div>
+        <div class="w-score">weight = 8</div>
+      </div>
+    </div>
+  </div>
+
+  <ul class="intro-keypoints">
+    <li>Graf jest <em>nieskierowany</em> — relacja „bycie w scenie" jest symetryczna</li>
+    <li>Graf jest <em>ważony</em> — grubość krawędzi odpowiada sile relacji (liczbie wspólnych scen)</li>
+    <li>Scenariusz <em>Fight Club</em>: <strong style="color:var(--red)">46 postaci</strong>, <strong style="color:var(--red)">90 krawędzi</strong>, źródło: IMSDb</li>
+  </ul>
+</div>
+</section>
