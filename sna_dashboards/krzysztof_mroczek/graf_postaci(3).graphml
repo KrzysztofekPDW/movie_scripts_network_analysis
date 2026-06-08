@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="FRODO">
+  <data key="d0">FRODO</data>
+</node>
+<node id="GANDALF">
+  <data key="d0">GANDALF</data>
+</node>
+<node id="SAM">
+  <data key="d0">SAM</data>
+</node>
+<node id="MERRY">
+  <data key="d0">MERRY</data>
+</node>
+<node id="PIPPIN">
+  <data key="d0">PIPPIN</data>
+</node>
+<node id="ARAGORN">
+  <data key="d0">ARAGORN</data>
+</node>
+<node id="LEGOLAS">
+  <data key="d0">LEGOLAS</data>
+</node>
+<node id="BOROMIR">
+  <data key="d0">BOROMIR</data>
+</node>
+<node id="GIMLI">
+  <data key="d0">GIMLI</data>
+</node>
+<node id="STRIDER">
+  <data key="d0">STRIDER</data>
+</node>
+<node id="BILBO">
+  <data key="d0">BILBO</data>
+</node>
+<node id="SARUMAN">
+  <data key="d0">SARUMAN</data>
+</node>
+<node id="ARWEN">
+  <data key="d0">ARWEN</data>
+</node>
+<node id="ELROND">
+  <data key="d0">ELROND</data>
+</node>
+<node id="ISILDUR">
+  <data key="d0">ISILDUR</data>
+</node>
+<node id="ODO PROUDFOOT">
+  <data key="d0">ODO PROUDFOOT</data>
+</node>
+<node id="BUTTERBUR">
+  <data key="d0">BUTTERBUR</data>
+</node>
+<node id="ORC OVERSEER">
+  <data key="d0">ORC OVERSEER</data>
+</node>
+<node id="GALADRIEL">
+  <data key="d0">GALADRIEL</data>
+</node>
+<node id="LURTZ">
+  <data key="d0">LURTZ</data>
+</node>
+<node id="GOLLUM">
+  <data key="d0">GOLLUM</data>
+</node>
+<node id="FARMER MAGGOT">
+  <data key="d0">FARMER MAGGOT</data>
+</node>
+<node id="GATEKEEPER">
+  <data key="d0">GATEKEEPER</data>
+</node>
+<node id="WITCH KING">
+  <data key="d0">WITCH KING</data>
+</node>
+<node id="HALDIR">
+  <data key="d0">HALDIR</data>
+</node>
+<node id="CELEBORN">
+  <data key="d0">CELEBORN</data>
+</node>
+<node id="MERRY &amp; PIPPIN">
+  <data key="d0">MERRY &amp; PIPPIN</data>
+</node>
+<edge source="FRODO" target="GANDALF">
+  <data key="d1">25</data>
+</edge>
+<edge source="FRODO" target="SAM">
+  <data key="d1">23</data>
+</edge>
+<edge source="FRODO" target="MERRY">
+  <data key="d1">15</data>
+</edge>
+<edge source="FRODO" target="PIPPIN">
+  <data key="d1">14</data>
+</edge>
+<edge source="FRODO" target="ARAGORN">
+  <data key="d1">7</data>
+</edge>
+<edge source="FRODO" target="BOROMIR">
+  <data key="d1">7</data>
+</edge>
+<edge source="FRODO" target="BILBO">
+  <data key="d1">5</data>
+</edge>
+<edge source="FRODO" target="STRIDER">
+  <data key="d1">5</data>
+</edge>
+<edge source="FRODO" target="GIMLI">
+  <data key="d1">4</data>
+</edge>
+<edge source="FRODO" target="LEGOLAS">
+  <data key="d1">3</data>
+</edge>
+<edge source="FRODO" target="ODO PROUDFOOT">
+  <data key="d1">2</data>
+</edge>
+<edge source="FRODO" target="BUTTERBUR">
+  <data key="d1">2</data>
+</edge>
+<edge source="FRODO" target="SARUMAN">
+  <data key="d1">2</data>
+</edge>
+<edge source="FRODO" target="ARWEN">
+  <data key="d1">2</data>
+</edge>
+<edge source="FRODO" target="ELROND">
+  <data key="d1">2</data>
+</edge>
+<edge source="FRODO" target="GALADRIEL">
+  <data key="d1">2</data>
+</edge>
+<edge source="FRODO" target="FARMER MAGGOT">
+  <data key="d1">1</data>
+</edge>
+<edge source="FRODO" target="GATEKEEPER">
+  <data key="d1">1</data>
+</edge>
+<edge source="FRODO" target="WITCH KING">
+  <data key="d1">1</data>
+</edge>
+<edge source="FRODO" target="CELEBORN">
+  <data key="d1">1</data>
+</edge>
+<edge source="GANDALF" target="SAM">
+  <data key="d1">9</data>
+</edge>
+<edge source="GANDALF" target="ARAGORN">
+  <data key="d1">7</data>
+</edge>
+<edge source="GANDALF" target="GIMLI">
+  <data key="d1">7</data>
+</edge>
+<edge source="GANDALF" target="BILBO">
+  <data key="d1">6</data>
+</edge>
+<edge source="GANDALF" target="MERRY">
+  <data key="d1">6</data>
+</edge>
+<edge source="GANDALF" target="PIPPIN">
+  <data key="d1">6</data>
+</edge>
+<edge source="GANDALF" target="SARUMAN">
+  <data key="d1">6</data>
+</edge>
+<edge source="GANDALF" target="BOROMIR">
+  <data key="d1">6</data>
+</edge>
+<edge source="GANDALF" target="LEGOLAS">
+  <data key="d1">6</data>
+</edge>
+<edge source="GANDALF" target="ELROND">
+  <data key="d1">4</data>
+</edge>
+<edge source="GANDALF" target="ODO PROUDFOOT">
+  <data key="d1">2</data>
+</edge>
+<edge source="GANDALF" target="ISILDUR">
+  <data key="d1">2</data>
+</edge>
+<edge source="GANDALF" target="GALADRIEL">
+  <data key="d1">2</data>
+</edge>
+<edge source="GANDALF" target="GOLLUM">
+  <data key="d1">1</data>
+</edge>
+<edge source="GANDALF" target="ORC OVERSEER">
+  <data key="d1">1</data>
+</edge>
+<edge source="GANDALF" target="ARWEN">
+  <data key="d1">1</data>
+</edge>
+<edge source="GANDALF" target="STRIDER">
+  <data key="d1">1</data>
+</edge>
+<edge source="SAM" target="PIPPIN">
+  <data key="d1">15</data>
+</edge>
+<edge source="SAM" target="MERRY">
+  <data key="d1">14</data>
+</edge>
+<edge source="SAM" target="STRIDER">
+  <data key="d1">7</data>
+</edge>
+<edge source="SAM" target="ARAGORN">
+  <data key="d1">6</data>
+</edge>
+<edge source="SAM" target="GIMLI">
+  <data key="d1">5</data>
+</edge>
+<edge source="SAM" target="BOROMIR">
+  <data key="d1">4</data>
+</edge>
+<edge source="SAM" target="LEGOLAS">
+  <data key="d1">4</data>
+</edge>
+<edge source="SAM" target="BILBO">
+  <data key="d1">2</data>
+</edge>
+<edge source="SAM" target="BUTTERBUR">
+  <data key="d1">2</data>
+</edge>
+<edge source="SAM" target="ELROND">
+  <data key="d1">2</data>
+</edge>
+<edge source="SAM" target="GALADRIEL">
+  <data key="d1">2</data>
+</edge>
+<edge source="SAM" target="ODO PROUDFOOT">
+  <data key="d1">1</data>
+</edge>
+<edge source="SAM" target="FARMER MAGGOT">
+  <data key="d1">1</data>
+</edge>
+<edge source="SAM" target="GATEKEEPER">
+  <data key="d1">1</data>
+</edge>
+<edge source="SAM" target="WITCH KING">
+  <data key="d1">1</data>
+</edge>
+<edge source="SAM" target="ARWEN">
+  <data key="d1">1</data>
+</edge>
+<edge source="SAM" target="HALDIR">
+  <data key="d1">1</data>
+</edge>
+<edge source="SAM" target="LURTZ">
+  <data key="d1">1</data>
+</edge>
+<edge source="SAM" target="MERRY &amp; PIPPIN">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="PIPPIN">
+  <data key="d1">19</data>
+</edge>
+<edge source="MERRY" target="ARAGORN">
+  <data key="d1">7</data>
+</edge>
+<edge source="MERRY" target="LEGOLAS">
+  <data key="d1">6</data>
+</edge>
+<edge source="MERRY" target="BOROMIR">
+  <data key="d1">5</data>
+</edge>
+<edge source="MERRY" target="GIMLI">
+  <data key="d1">5</data>
+</edge>
+<edge source="MERRY" target="STRIDER">
+  <data key="d1">4</data>
+</edge>
+<edge source="MERRY" target="SARUMAN">
+  <data key="d1">2</data>
+</edge>
+<edge source="MERRY" target="BILBO">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="ODO PROUDFOOT">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="FARMER MAGGOT">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="GATEKEEPER">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="BUTTERBUR">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="ELROND">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="GALADRIEL">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="LURTZ">
+  <data key="d1">1</data>
+</edge>
+<edge source="MERRY" target="MERRY &amp; PIPPIN">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="STRIDER">
+  <data key="d1">5</data>
+</edge>
+<edge source="PIPPIN" target="ARAGORN">
+  <data key="d1">5</data>
+</edge>
+<edge source="PIPPIN" target="BOROMIR">
+  <data key="d1">5</data>
+</edge>
+<edge source="PIPPIN" target="LEGOLAS">
+  <data key="d1">5</data>
+</edge>
+<edge source="PIPPIN" target="GIMLI">
+  <data key="d1">4</data>
+</edge>
+<edge source="PIPPIN" target="SARUMAN">
+  <data key="d1">2</data>
+</edge>
+<edge source="PIPPIN" target="BILBO">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="ODO PROUDFOOT">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="FARMER MAGGOT">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="GATEKEEPER">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="BUTTERBUR">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="ARWEN">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="ELROND">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="LURTZ">
+  <data key="d1">1</data>
+</edge>
+<edge source="PIPPIN" target="MERRY &amp; PIPPIN">
+  <data key="d1">1</data>
+</edge>
+<edge source="ARAGORN" target="LEGOLAS">
+  <data key="d1">9</data>
+</edge>
+<edge source="ARAGORN" target="BOROMIR">
+  <data key="d1">8</data>
+</edge>
+<edge source="ARAGORN" target="GIMLI">
+  <data key="d1">8</data>
+</edge>
+<edge source="ARAGORN" target="GALADRIEL">
+  <data key="d1">2</data>
+</edge>
+<edge source="ARAGORN" target="ELROND">
+  <data key="d1">1</data>
+</edge>
+<edge source="ARAGORN" target="STRIDER">
+  <data key="d1">1</data>
+</edge>
+<edge source="ARAGORN" target="SARUMAN">
+  <data key="d1">1</data>
+</edge>
+<edge source="ARAGORN" target="HALDIR">
+  <data key="d1">1</data>
+</edge>
+<edge source="ARAGORN" target="LURTZ">
+  <data key="d1">1</data>
+</edge>
+<edge source="ARAGORN" target="MERRY &amp; PIPPIN">
+  <data key="d1">1</data>
+</edge>
+<edge source="LEGOLAS" target="GIMLI">
+  <data key="d1">8</data>
+</edge>
+<edge source="LEGOLAS" target="BOROMIR">
+  <data key="d1">7</data>
+</edge>
+<edge source="LEGOLAS" target="ELROND">
+  <data key="d1">1</data>
+</edge>
+<edge source="LEGOLAS" target="STRIDER">
+  <data key="d1">1</data>
+</edge>
+<edge source="LEGOLAS" target="SARUMAN">
+  <data key="d1">1</data>
+</edge>
+<edge source="LEGOLAS" target="GALADRIEL">
+  <data key="d1">1</data>
+</edge>
+<edge source="LEGOLAS" target="LURTZ">
+  <data key="d1">1</data>
+</edge>
+<edge source="LEGOLAS" target="MERRY &amp; PIPPIN">
+  <data key="d1">1</data>
+</edge>
+<edge source="BOROMIR" target="GIMLI">
+  <data key="d1">5</data>
+</edge>
+<edge source="BOROMIR" target="STRIDER">
+  <data key="d1">2</data>
+</edge>
+<edge source="BOROMIR" target="ARWEN">
+  <data key="d1">1</data>
+</edge>
+<edge source="BOROMIR" target="ELROND">
+  <data key="d1">1</data>
+</edge>
+<edge source="BOROMIR" target="SARUMAN">
+  <data key="d1">1</data>
+</edge>
+<edge source="BOROMIR" target="GALADRIEL">
+  <data key="d1">1</data>
+</edge>
+<edge source="BOROMIR" target="LURTZ">
+  <data key="d1">1</data>
+</edge>
+<edge source="BOROMIR" target="MERRY &amp; PIPPIN">
+  <data key="d1">1</data>
+</edge>
+<edge source="GIMLI" target="ELROND">
+  <data key="d1">1</data>
+</edge>
+<edge source="GIMLI" target="STRIDER">
+  <data key="d1">1</data>
+</edge>
+<edge source="GIMLI" target="SARUMAN">
+  <data key="d1">1</data>
+</edge>
+<edge source="GIMLI" target="GALADRIEL">
+  <data key="d1">1</data>
+</edge>
+<edge source="GIMLI" target="HALDIR">
+  <data key="d1">1</data>
+</edge>
+<edge source="STRIDER" target="ARWEN">
+  <data key="d1">4</data>
+</edge>
+<edge source="STRIDER" target="WITCH KING">
+  <data key="d1">1</data>
+</edge>
+<edge source="STRIDER" target="ELROND">
+  <data key="d1">1</data>
+</edge>
+<edge source="BILBO" target="ELROND">
+  <data key="d1">1</data>
+</edge>
+<edge source="BILBO" target="GALADRIEL">
+  <data key="d1">1</data>
+</edge>
+<edge source="BILBO" target="GOLLUM">
+  <data key="d1">1</data>
+</edge>
+<edge source="BILBO" target="ISILDUR">
+  <data key="d1">1</data>
+</edge>
+<edge source="BILBO" target="ODO PROUDFOOT">
+  <data key="d1">1</data>
+</edge>
+<edge source="SARUMAN" target="ORC OVERSEER">
+  <data key="d1">2</data>
+</edge>
+<edge source="SARUMAN" target="LURTZ">
+  <data key="d1">2</data>
+</edge>
+<edge source="ARWEN" target="WITCH KING">
+  <data key="d1">1</data>
+</edge>
+<edge source="ELROND" target="ISILDUR">
+  <data key="d1">3</data>
+</edge>
+<edge source="ELROND" target="GALADRIEL">
+  <data key="d1">1</data>
+</edge>
+<edge source="ELROND" target="GOLLUM">
+  <data key="d1">1</data>
+</edge>
+<edge source="ISILDUR" target="GALADRIEL">
+  <data key="d1">1</data>
+</edge>
+<edge source="ISILDUR" target="GOLLUM">
+  <data key="d1">1</data>
+</edge>
+<edge source="GALADRIEL" target="GOLLUM">
+  <data key="d1">1</data>
+</edge>
+<edge source="GALADRIEL" target="HALDIR">
+  <data key="d1">1</data>
+</edge>
+<edge source="GALADRIEL" target="CELEBORN">
+  <data key="d1">1</data>
+</edge>
+<edge source="LURTZ" target="MERRY &amp; PIPPIN">
+  <data key="d1">1</data>
+</edge>
+</graph></graphml>
